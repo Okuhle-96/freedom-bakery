@@ -1,0 +1,181 @@
+body {
+    margin: 10px;
+}
+
+#landing {
+    background-image: url('../images/back.jpeg');
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.338);
+    height: 550px;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+    float: right;
+}
+
+ li {
+    list-style: none;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 25px ;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+    /* margin: 40px ; */
+}
+
+.content {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.content h5 {
+    color: #d4af37;
+    margin-bottom: -30px;
+}
+
+.content h1 {
+    
+    font-size: 60px;
+    color: white;
+}
+
+.content a {
+    background-color: #d4af37;
+    padding: 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    /* width: 250px; */
+}
+.content .right {
+    background-color: white;
+    color: #d4af37;
+    /* width: 250px; */
+}
+
+.about {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.about {
+    display: flex;
+    width: 100%;
+}
+
+.about .left{
+    width: 50%;
+    text-align: justify;
+    padding: 40px;
+}
+
+.about .right{
+    width: 40%;
+    padding: 20px;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+
+.left h2{
+    color: #d4af37;
+}
+
+.left p {
+    margin-bottom: 50px;
+}
+
+.left a {
+    background-color: #d4af37;
+    padding: 25px;
+    text-decoration: none;
+    color: white;
+
+    margin-top: 50px;
+}
+
+#products {
+    background-color: #c1c1c1;
+}
+
+#news {
+    background-image: url('../images/news.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.news {
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+
+.news h1, .news p {
+color: white;
+}
+
+.staff {
+    display: block;
+    margin: 0px;
+   
+}
+
+.staff .three {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    margin-left: 100px;
+}
+
+.left img {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+
+}
+
+.profile {
+    padding: 40px;
+    padding-top: 0px;
+}
+
+
+.profile h4 {
+  color: #d4af37;
+}
+
+#contact {
+    background-color: #212121;
+}
+
+.contact {
+    display: flex;
+    color: white;
+}
+
+.slots h5, .slots h4, .slots p {
+    color: white;
+}
+
+.form h5, label{
+    color: white;
+}
+.social {
+    display: block;
+}
+.social h5, .social a{
+    color: white;
+}

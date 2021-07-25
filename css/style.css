@@ -4,7 +4,7 @@ body {
 
 #landing {
     background-image: url('../images/back.jpeg');
-    height: 550px;
+    height: 560px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -12,14 +12,23 @@ body {
 
 .overlay {
     background-color: rgba(0, 0, 0, 0.338);
-    height: 550px;
+    height: 560px;
 }
 
+.nav-bar {
+    display: flex;
+}
+
+.nav-bar img {
+    float: left;
+    height: 100px;
+}
 .nav-bar ul {
     display: flex;
     list-style: none;
-    float: right;
+  
 }
+
 
  li {
     list-style: none;
@@ -27,7 +36,10 @@ body {
     font-weight: bolder;
     padding: 25px ;
 }
-
+ul {
+    float: right;
+    margin-left: 100px;
+}
 ul a {
     text-decoration: none;
     color: white;
@@ -35,7 +47,7 @@ ul a {
 }
 
 .content {
-    padding-top: 200px;
+    padding-top: 100px;
     text-align: center;
 }
 
@@ -50,20 +62,29 @@ ul a {
     color: white;
 }
 
-.content a {
+.buttons a {
     background-color: #d4af37;
-    padding: 25px;
+    border: 10px solid #d4af37;
+    padding: 15px;
     text-decoration: none;
     color: white;
     font-weight: bold;
-    /* width: 250px; */
+    width: 250px;
+    text-align: center;
 }
-.content .right {
-    background-color: white;
-    color: #d4af37;
-    /* width: 250px; */
+.buttons .right {
+    background-color: transparent;
+    border: 10px solid #fff;
+    color: #fff;
+    width: 250px;
+    margin-left: 15px;
 }
-
+.buttons {
+    /* margin-top: 2px; */
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
 .about {
     display: flex;
     margin-top: 50px;
@@ -108,7 +129,20 @@ ul a {
 }
 
 #products {
-    background-color: #c1c1c1;
+    /* background-color: #c1c1c1; */
+}
+
+.three {
+    display: flex;
+}
+
+.three .content {
+    padding: 20px;
+}
+
+.content img {
+    width: 200px;
+    height: 200px;
 }
 
 #news {
@@ -137,45 +171,150 @@ color: white;
     padding: 20px;
     width: 100%;
     display: flex;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 .left img {
+    padding-top: 40px;
     width: 240px;
     height: 240px;
     border-radius: 50%;
 
 }
 
-.profile {
+.three .profile {
     padding: 40px;
+    padding-bottom: 10px;
+    margin: 10px;
     padding-top: 0px;
+    background-color: #c1c1c1;
 }
 
 
 .profile h4 {
-  color: #d4af37;
+  color: White;
 }
 
 #contact {
     background-color: #212121;
+    width: 100%;
 }
 
 .contact {
+    width: 60%;
     display: flex;
     color: white;
+    margin: auto;
 }
 
-.slots h5, .slots h4, .slots p {
+.contact .slots {
+    padding: 20px;
+    margin: 20px;
+}
+
+.slots h4 {
+    color: #d4af37;
+    font-size: 15px;
+}
+
+.slots h5, .slots p {
     color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.contact .form {
+    padding: 20px;
+    margin: 20px;
+    /* width: 300px; */
+    /* display: block; */
+    background-color: #d4af37;
 }
 
 .form h5, label{
     color: white;
+    font-weight: bold;
 }
-.social {
-    display: block;
+
+/* form .name {
+    margin-top: 20px;
+}
+
+form .email {
+    margin-top: 15px;
+}
+form .subject {
+    margin-top: 50px;
+} */
+input {
+    width: 180px;
+    margin-top: 10px;
+    padding: 10px;
+    float: right;
+    border: 1px solid #fff;
+}
+textarea {
+    width: 200px;
+    height: 80px;
+    margin-top: 10px;
+    float: right;
+    border: 1px solid #fff;
+}
+
+.form button{
+width: 150px;
+padding: 10px;
+text-transform: uppercase;
+font-weight: bold;
+border: 1px solid #212121;
+background-color: #212121;
+color: white;
+float: right;
+margin-top: 10px;
+}
+.contact .social {
+  display: block;
+    padding: 20px;
+    margin: 20px;
 }
 .social h5, .social a{
     color: white;
+    font-weight: bold;
+}
+
+.contact .social a {
+    text-decoration: none;
+    /* background-color: white; */
+    /* text-transform: uppercase; */
+  
+}
+
+footer {
+    /* display: flex; */
+    background-color: #d4af37;
+    height: 70px;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.footer strong {
+    padding-top: 20px;
+    color: white;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-left: 5px;
 }

@@ -136,6 +136,10 @@ ul a {
     display: flex;
 }
 
+.three .flex {
+    display: flex;
+}
+
 .three .content {
     padding: 20px;
 }
@@ -318,3 +322,4 @@ footer {
     padding-top: 20px;
     padding-left: 5px;
 }
+
